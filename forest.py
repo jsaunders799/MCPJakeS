@@ -1,8 +1,8 @@
-from mcpi.minecraft import minecraft
+from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
 
 def growTree(x, y, z):
-    mc.setBlocks(x + 1, y, z, 6)
+    mc.setBlock(x, y, z, 6)
 
 pos = mc.player.getTilePos()
 x = pos.x

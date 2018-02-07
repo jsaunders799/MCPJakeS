@@ -2,8 +2,20 @@ from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
 
 def melon():
-    """Returns the value of the melon block"""
     return 103
+def water():
+    return 9
+def lava():
+    return 11
+def tnt():
+    return 46
+def flower():
+    return 175
+def diamondBlock():
+    return 57
+
 block = melon()
-pos = mc.player.getTilePos(pos.x, pos.y, pos.z)
-mc.setBlock(pos.x + 2, pos.y, pos.z, block)
+pos = mc.player.getTilePos()
+mc.setBlock(pos.x, pos.y, pos.z, block)
+
+
