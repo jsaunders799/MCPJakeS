@@ -13,7 +13,7 @@ pos = mc.player.getTilePos()
 x, y, z = pos.x, pos.y, pos.z
 
 brokenWall = []
-height, width = 5, 10
+height, width = 5, 10  
 
 # Create the list of broken blocks 
 
