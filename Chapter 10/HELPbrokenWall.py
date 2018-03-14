@@ -15,6 +15,10 @@ x, y, z = pos.x, pos.y, pos.z
 brokenWall = []
 height, width = 5, 10  
 
-# Create the list of broken blocks 
-
-# Set the blocks 
+for i in range(height):
+    for j in range(width):
+        mc.setBlock(x, y, z, brokenBlock())
+        x += 1
+    y += 1
+    x = pos.x
+        
