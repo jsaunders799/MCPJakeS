@@ -6,10 +6,10 @@ import math
 import time
 import random
 
-consumer_key = 'ZeI5XKu9nrUxE3ls3D1PDRbbo'
-consumer_secret = 'vYVkaI4Ajv0qyhUoE07FkYHjc5VnB3O4ij3nUcsAp5lZVEmHrB'
-access_token = '4206112332-DIYMYit1iSQyS33FGikcO4TOFQw8YNAeecRPgqn'
-access_token_secret = 'y0fD49oDQd88QimGvmo3R6ayNQgycHF4TJiVn3huBN4XX'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 
 
 twitter = Twython(
